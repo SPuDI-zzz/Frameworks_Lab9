@@ -1,0 +1,748 @@
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 systemd-modules-load[364]: Inserted module 'ppdev'
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 systemd-modules-load[364]: Inserted module 'parport_pc'
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 systemd-modules-load[364]: Inserted module 'msr'
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.000000] Linux version 5.15.0-56-generic (buildd@lcy02-amd64-004) (gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0, GNU ld (GNU Binutils for Ubuntu) 2.38) #62-Ubuntu SMP Tue Nov 22 19:54:14 UTC 2022 (Ubuntu 5.15.0-56.62-generic 5.15.64)
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 systemd-modules-load[364]: Inserted module 'ipmi_devintf'
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.15.0-56-generic root=UUID=b55e6085-edfe-4bf9-9ec3-cc1f7d921856 ro quiet splash vt.handoff=7
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.000000] KERNEL supported cpus:
+--
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240618] ACPI: Added _OSI(3.0 _SCP Extensions)
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240618] ACPI: Added _OSI(Processor Aggregator Device)
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 systemd[1]: Finished Load AppArmor profiles managed internally by snapd.
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240618] ACPI: Added _OSI(Linux-Dell-Video)
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240618] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240618] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 systemd[1]: Reached target System Initialization.
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.251467] ACPI: 11 ACPI AML tables successfully acquired and loaded
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.252487] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 systemd[1]: Started ACPI Events Check.
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.253832] ACPI: EC: EC started
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.253833] ACPI: EC: interrupt blocked
+--
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.286029] usbcore: registered new interface driver usbfs
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.286029] usbcore: registered new interface driver hub
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.286029] usbcore: registered new device driver usb
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.289142] pps_core: LinuxPPS API ver. 1 registered
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.289143] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.289145] PTP clock support registered
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.289154] EDAC MC: Ver: 3.0.0
+--
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.340809] ACPI: \_SB_.PLTF.C00A: Found 3 idle states
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.340958] ACPI: \_SB_.PLTF.C00B: Found 3 idle states
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.341188] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.342583] Linux agpgart interface v0.103
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.354936] loop: module loaded
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.355195] tun: Universal TUN/TAP device driver, 1.6
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.355226] PPP generic driver version 2.4.2
+--
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.704524] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.15
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.704524] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.704524] usb usb1: Product: xHCI Host Controller
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.704524] usb usb1: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.704524] usb usb1: SerialNumber: 0000:04:00.3
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.704524] nvme nvme0: pci function 0000:03:00.0
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.704951] scsi host0: ahci
+--
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.710387] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.15
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.710388] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.710389] usb usb2: Product: xHCI Host Controller
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.710390] usb usb2: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.710391] usb usb2: SerialNumber: 0000:04:00.3
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.710487] scsi host1: ahci
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.710528] hub 2-0:1.0: USB hub found
+--
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.711176] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.15
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.711178] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.711178] usb usb3: Product: xHCI Host Controller
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.711179] usb usb3: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.711180] usb usb3: SerialNumber: 0000:04:00.4
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.711231] hub 3-0:1.0: USB hub found
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.711236] hub 3-0:1.0: 4 ports detected
+--
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.711381] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.15
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.711382] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.711383] usb usb4: Product: xHCI Host Controller
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.711383] usb usb4: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.711384] usb usb4: SerialNumber: 0000:04:00.4
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.711448] hub 4-0:1.0: USB hub found
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.711451] hub 4-0:1.0: 2 ports detected
+--
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.734222] ideapad_acpi VPC2004:00: DYTC interface is not available
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.743878] ccp 0000:04:00.2: tee enabled
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.743883] ccp 0000:04:00.2: psp enabled
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.749190] mc: Linux media interface: v0.10
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.795024] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.795200] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.802312] videodev: Linux video capture interface: v2.00
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.802739] Bluetooth: Core ver 2.22
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.803513] NET: Registered PF_BLUETOOTH protocol family
+Dec 27 21:55:41 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.803515] Bluetooth: HCI device and connection manager initialized
+--
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 systemd[1]: modprobe@chromeos_pstore.service: Deactivated successfully.
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 systemd[1]: Finished Load Kernel Module chromeos_pstore.
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.000000] Linux version 5.15.0-56-generic (buildd@lcy02-amd64-004) (gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0, GNU ld (GNU Binutils for Ubuntu) 2.38) #62-Ubuntu SMP Tue Nov 22 19:54:14 UTC 2022 (Ubuntu 5.15.0-56.62-generic 5.15.64)
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 systemd[1]: Finished Coldplug All udev Devices.
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.15.0-56-generic root=UUID=b55e6085-edfe-4bf9-9ec3-cc1f7d921856 ro quiet splash vt.handoff=7
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.000000] KERNEL supported cpus:
+--
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.241002] ACPI: Added _OSI(Processor Device)
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.241002] ACPI: Added _OSI(3.0 _SCP Extensions)
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.241003] ACPI: Added _OSI(Processor Aggregator Device)
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.241003] ACPI: Added _OSI(Linux-Dell-Video)
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.241004] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.241004] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.251771] ACPI: 11 ACPI AML tables successfully acquired and loaded
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.252783] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.254121] ACPI: EC: EC started
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.254122] ACPI: EC: interrupt blocked
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.261305] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+--
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.286434] usbcore: registered new interface driver usbfs
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.286434] usbcore: registered new interface driver hub
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.286434] usbcore: registered new device driver usb
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.289617] pps_core: LinuxPPS API ver. 1 registered
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.289619] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.289620] PTP clock support registered
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.289629] EDAC MC: Ver: 3.0.0
+--
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.333715] ACPI: \_SB_.PLTF.C00A: Found 3 idle states
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.333832] ACPI: \_SB_.PLTF.C00B: Found 3 idle states
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.334013] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.335030] Linux agpgart interface v0.103
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.346844] loop: module loaded
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.347021] tun: Universal TUN/TAP device driver, 1.6
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.347042] PPP generic driver version 2.4.2
+--
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.766357] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.15
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.766359] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.766360] usb usb1: Product: xHCI Host Controller
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.766361] usb usb1: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.766361] usb usb1: SerialNumber: 0000:04:00.3
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.766539] acpi PNP0C14:03: duplicate WMI GUID 05901221-D566-11D1-B2F0-00A0C9062910 (first instance was on PNP0C14:00)
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.770303] hub 1-0:1.0: USB hub found
+--
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.770303] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.15
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.770303] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.770303] usb usb2: Product: xHCI Host Controller
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.770303] usb usb2: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.770303] usb usb2: SerialNumber: 0000:04:00.3
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.770303] hub 2-0:1.0: USB hub found
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.770303] hub 2-0:1.0: 2 ports detected
+--
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.770303] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.15
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.770303] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.770303] usb usb3: Product: xHCI Host Controller
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.770303] usb usb3: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.770303] usb usb3: SerialNumber: 0000:04:00.4
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.770303] hub 3-0:1.0: USB hub found
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.770308] hub 3-0:1.0: 4 ports detected
+--
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.770482] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.15
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.770483] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.770484] usb usb4: Product: xHCI Host Controller
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.770485] usb usb4: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.770486] usb usb4: SerialNumber: 0000:04:00.4
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.770571] hub 4-0:1.0: USB hub found
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.770576] hub 4-0:1.0: 2 ports detected
+--
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.849953] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.850532] ccp 0000:04:00.2: tee enabled
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.850536] ccp 0000:04:00.2: psp enabled
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.863507] mc: Linux media interface: v0.10
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.873976] videodev: Linux video capture interface: v2.00
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.876724] RAPL PMU: API unit is 2^-32 Joules, 1 fixed counters, 163840 ms ovfl timer
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.876728] RAPL PMU: hw unit of domain package 2^-16 Joules
+Dec 27 18:59:32 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.879234] cryptd: max_cpu_qlen set to 1000
+--
+Dec 27 19:13:21 danilspudi-IdeaPad-3-15ABA7 kernel: [  831.789182] audit: type=1400 audit(1672157601.939:4759085): apparmor="DENIED" operation="recvmsg" profile="snap.discord.discord" pid=7269 comm="ThreadPoolForeg" family="netlink" sock_type="raw" protocol=15 requested_mask="receive" denied_mask="receive"
+Dec 27 19:13:21 danilspudi-IdeaPad-3-15ABA7 kernel: [  831.789217] audit: type=1400 audit(1672157601.939:4759086): apparmor="DENIED" operation="recvmsg" profile="snap.discord.discord" pid=7269 comm="ThreadPoolForeg" family="netlink" sock_type="raw" protocol=15 requested_mask="receive" denied_mask="receive"
+Dec 27 19:13:23 danilspudi-IdeaPad-3-15ABA7 kernel: [  833.528823] ntfs3: Max link count 4000
+Dec 27 19:13:23 danilspudi-IdeaPad-3-15ABA7 kernel: [  833.528825] ntfs3: Enabled Linux POSIX ACLs support
+Dec 27 19:13:23 danilspudi-IdeaPad-3-15ABA7 kernel: [  833.528826] ntfs3: Read-only LZX/Xpress compression included
+Dec 27 19:13:23 danilspudi-IdeaPad-3-15ABA7 udisksd[9578]: The disk contains an unclean file system (0, 0).
+Dec 27 19:13:23 danilspudi-IdeaPad-3-15ABA7 kernel: [  833.529045] ntfs3: Unknown parameter 'windows_names'
+--
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 systemd[1]: Mounted Mount unit for gnome-42-2204, revision 44.
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 systemd[1]: Mounted Mount unit for gtk-common-themes, revision 1535.
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 systemd[1]: Mounted Mount unit for snap-store, revision 582.
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.000000] Linux version 5.15.0-56-generic (buildd@lcy02-amd64-004) (gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0, GNU ld (GNU Binutils for Ubuntu) 2.38) #62-Ubuntu SMP Tue Nov 22 19:54:14 UTC 2022 (Ubuntu 5.15.0-56.62-generic 5.15.64)
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 systemd[1]: Mounted Mount unit for snapd, revision 17883.
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.15.0-56-generic root=UUID=b55e6085-edfe-4bf9-9ec3-cc1f7d921856 ro quiet splash vt.handoff=7
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 systemd[1]: Mounted Mount unit for snapd-desktop-integration, revision 14.
+--
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240385] ACPI: Added _OSI(3.0 _SCP Extensions)
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240386] ACPI: Added _OSI(Processor Aggregator Device)
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 systemd[1]: Reached target Socket Units.
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240386] ACPI: Added _OSI(Linux-Dell-Video)
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240387] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 systemd[1]: Reached target Basic System.
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240387] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.248393] ACPI: 11 ACPI AML tables successfully acquired and loaded
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.249396] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 systemd[1]: Starting Accounts Service...
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 systemd[1]: Started ACPI event daemon.
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.252633] ACPI: EC: EC started
+--
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.285233] usbcore: registered new interface driver usbfs
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.285233] usbcore: registered new interface driver hub
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.285233] usbcore: registered new device driver usb
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.288429] pps_core: LinuxPPS API ver. 1 registered
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.288430] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.288432] PTP clock support registered
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.288441] EDAC MC: Ver: 3.0.0
+--
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.324595] ACPI: \_SB_.PLTF.C00A: Found 3 idle states
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.324686] ACPI: \_SB_.PLTF.C00B: Found 3 idle states
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.324847] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.325897] Linux agpgart interface v0.103
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.337386] loop: module loaded
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.337565] tun: Universal TUN/TAP device driver, 1.6
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.337593] PPP generic driver version 2.4.2
+--
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.775331] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.15
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.775331] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.775331] usb usb1: Product: xHCI Host Controller
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.775331] usb usb1: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.775331] usb usb1: SerialNumber: 0000:04:00.3
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.775331] mmc0: SDHCI controller on PCI [0000:01:00.0] using ADMA
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.775331] nvme nvme0: pci function 0000:03:00.0
+--
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.777569] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.15
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.777569] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.777569] usb usb2: Product: xHCI Host Controller
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.777569] usb usb2: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.777569] usb usb2: SerialNumber: 0000:04:00.3
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 udisksd[743]: udisks daemon version 2.9.4 starting
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.777569] hub 2-0:1.0: USB hub found
+--
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.777926] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.15
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.777927] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.777928] usb usb3: Product: xHCI Host Controller
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.777929] usb usb3: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.777930] usb usb3: SerialNumber: 0000:04:00.4
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.778001] hub 3-0:1.0: USB hub found
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.778006] hub 3-0:1.0: 4 ports detected
+--
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.778201] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.15
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.778202] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.778203] usb usb4: Product: xHCI Host Controller
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.778203] usb usb4: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.778204] usb usb4: SerialNumber: 0000:04:00.4
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.778313] hub 4-0:1.0: USB hub found
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.778320] hub 4-0:1.0: 2 ports detected
+--
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.812597] ccp 0000:04:00.2: psp enabled
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.856851] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.857019] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.858901] mc: Linux media interface: v0.10
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.864436] RAPL PMU: API unit is 2^-32 Joules, 1 fixed counters, 163840 ms ovfl timer
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.864439] RAPL PMU: hw unit of domain package 2^-16 Joules
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.868741] cryptd: max_cpu_qlen set to 1000
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.880590] videodev: Linux video capture interface: v2.00
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.891314] Bluetooth: Core ver 2.22
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.891412] NET: Registered PF_BLUETOOTH protocol family
+Dec 27 23:43:16 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.891414] Bluetooth: HCI device and connection manager initialized
+--
+Dec 27 20:47:09 danilspudi-IdeaPad-3-15ABA7 gnome-shell[1880]: == Stack trace for context 0x5582ed0fc4b0 ==
+Dec 27 20:47:09 danilspudi-IdeaPad-3-15ABA7 gnome-shell[1880]: message repeated 3 times: [ == Stack trace for context 0x5582ed0fc4b0 ==]
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 systemd-modules-load[362]: Inserted module 'lp'
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.000000] Linux version 5.15.0-56-generic (buildd@lcy02-amd64-004) (gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0, GNU ld (GNU Binutils for Ubuntu) 2.38) #62-Ubuntu SMP Tue Nov 22 19:54:14 UTC 2022 (Ubuntu 5.15.0-56.62-generic 5.15.64)
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.15.0-56-generic root=UUID=b55e6085-edfe-4bf9-9ec3-cc1f7d921856 ro quiet splash vt.handoff=7
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.000000] KERNEL supported cpus:
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.000000]   Intel GenuineIntel
+--
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240793] ACPI: Added _OSI(3.0 _SCP Extensions)
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 systemd[1]: Condition check resulted in Set Up Additional Binary Formats being skipped.
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240793] ACPI: Added _OSI(Processor Aggregator Device)
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240794] ACPI: Added _OSI(Linux-Dell-Video)
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240794] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240795] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.251615] ACPI: 11 ACPI AML tables successfully acquired and loaded
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.252640] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.253977] ACPI: EC: EC started
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.253977] ACPI: EC: interrupt blocked
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.261108] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+--
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.285647] usbcore: registered new interface driver usbfs
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.285647] usbcore: registered new interface driver hub
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.285647] usbcore: registered new device driver usb
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.285647] pps_core: LinuxPPS API ver. 1 registered
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.285647] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.285647] PTP clock support registered
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.288760] EDAC MC: Ver: 3.0.0
+--
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.334243] ACPI: \_SB_.PLTF.C00A: Found 3 idle states
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.334359] ACPI: \_SB_.PLTF.C00B: Found 3 idle states
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.334584] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.335981] Linux agpgart interface v0.103
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.348089] loop: module loaded
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.348312] tun: Universal TUN/TAP device driver, 1.6
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.348343] PPP generic driver version 2.4.2
+--
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.748477] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.15
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.748480] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.748481] usb usb1: Product: xHCI Host Controller
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.748481] usb usb1: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.748483] usb usb1: SerialNumber: 0000:04:00.3
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.748813] ahci 0000:05:00.1: AHCI 0001.0301 32 slots 1 ports 6 Gbps 0x1 impl SATA mode
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.748816] ahci 0000:05:00.1: flags: 64bit ncq sntf ilck pm led clo only pmp fbs pio slum part 
+--
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.753553] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.15
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.753555] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.753557] usb usb2: Product: xHCI Host Controller
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.753558] usb usb2: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.753560] usb usb2: SerialNumber: 0000:04:00.3
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.753701] hub 2-0:1.0: USB hub found
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.753708] hub 2-0:1.0: 2 ports detected
+--
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.754645] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.15
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.754647] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.754648] usb usb3: Product: xHCI Host Controller
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.754648] usb usb3: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.754649] usb usb3: SerialNumber: 0000:04:00.4
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.754842] hub 3-0:1.0: USB hub found
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.754853] hub 3-0:1.0: 4 ports detected
+--
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.755367] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.15
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.755369] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.755370] usb usb4: Product: xHCI Host Controller
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.755371] usb usb4: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.755373] usb usb4: SerialNumber: 0000:04:00.4
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.755478] hub 4-0:1.0: USB hub found
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.755486] hub 4-0:1.0: 2 ports detected
+--
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.788128] snd_rn_pci_acp3x 0000:04:00.5: enabling device (0000 -> 0002)
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.791509] ccp 0000:04:00.2: tee enabled
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.791514] ccp 0000:04:00.2: psp enabled
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.825300] mc: Linux media interface: v0.10
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.828472] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.828708] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.828800] Bluetooth: Core ver 2.22
+--
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.831087] RAPL PMU: API unit is 2^-32 Joules, 1 fixed counters, 163840 ms ovfl timer
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.831090] RAPL PMU: hw unit of domain package 2^-16 Joules
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.837308] cryptd: max_cpu_qlen set to 1000
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.842523] videodev: Linux video capture interface: v2.00
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.856671] Bluetooth: hci0: RTL: examining hci_ver=0a hci_rev=000c lmp_ver=0a lmp_subver=8822
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.858444] AVX2 version of gcm_enc/dec engaged.
+Dec 27 20:50:47 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.858518] AES CTR mode by8 optimization enabled
+--
+Dec 27 21:04:17 danilspudi-IdeaPad-3-15ABA7 PackageKit: get-details transaction /52_cbbdeedb from uid 1000 finished with success after 188ms
+Dec 27 21:04:25 danilspudi-IdeaPad-3-15ABA7 systemd[1636]: Started Application launched by gnome-shell.
+Dec 27 21:04:25 danilspudi-IdeaPad-3-15ABA7 rustdesk.desktop[6282]: INFO:TIS: scaleFactor 1
+Dec 27 21:04:25 danilspudi-IdeaPad-3-15ABA7 rustdesk.desktop[6282]: INFO:TIS: current platform: Linux
+Dec 27 21:04:25 danilspudi-IdeaPad-3-15ABA7 rustdesk.desktop[6282]: INFO:TIS: is_xfce:  false
+Dec 27 21:04:42 danilspudi-IdeaPad-3-15ABA7 wpa_supplicant[735]: wlp2s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-19 noise=9999 txrate=162000
+Dec 27 21:04:52 danilspudi-IdeaPad-3-15ABA7 wpa_supplicant[735]: wlp2s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-50 noise=9999 txrate=243000
+--
+Dec 27 21:18:18 danilspudi-IdeaPad-3-15ABA7 gnome-shell[1850]: The offending signal was destroy on Gjs_ui_appDisplay_AppIcon 0x5569b63b0150.
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 systemd-modules-load[359]: Inserted module 'lp'
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 systemd-modules-load[359]: Inserted module 'ppdev'
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.000000] Linux version 5.15.0-56-generic (buildd@lcy02-amd64-004) (gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0, GNU ld (GNU Binutils for Ubuntu) 2.38) #62-Ubuntu SMP Tue Nov 22 19:54:14 UTC 2022 (Ubuntu 5.15.0-56.62-generic 5.15.64)
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 systemd-modules-load[359]: Inserted module 'parport_pc'
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.15.0-56-generic root=UUID=b55e6085-edfe-4bf9-9ec3-cc1f7d921856 ro quiet splash vt.handoff=7
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.000000] KERNEL supported cpus:
+--
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 rsyslogd: rsyslogd's groupid changed to 111
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240762] ACPI: Added _OSI(Processor Aggregator Device)
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 rsyslogd: rsyslogd's userid changed to 104
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240762] ACPI: Added _OSI(Linux-Dell-Video)
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240763] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="736" x-info="https://www.rsyslog.com"] start
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240763] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.251538] ACPI: 11 ACPI AML tables successfully acquired and loaded
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.252563] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.253903] ACPI: EC: EC started
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.253903] ACPI: EC: interrupt blocked
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.260945] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+--
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.285621] usbcore: registered new interface driver usbfs
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.285621] usbcore: registered new interface driver hub
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.285621] usbcore: registered new device driver usb
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.285621] pps_core: LinuxPPS API ver. 1 registered
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.285621] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.285621] PTP clock support registered
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.288726] EDAC MC: Ver: 3.0.0
+--
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.333453] ACPI: \_SB_.PLTF.C00A: Found 3 idle states
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.333570] ACPI: \_SB_.PLTF.C00B: Found 3 idle states
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.333794] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.335186] Linux agpgart interface v0.103
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.346766] loop: module loaded
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.346955] tun: Universal TUN/TAP device driver, 1.6
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.346982] PPP generic driver version 2.4.2
+--
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.775606] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.15
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.775609] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.775611] usb usb1: Product: xHCI Host Controller
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.775613] usb usb1: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.775615] usb usb1: SerialNumber: 0000:04:00.3
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.775849] ahci 0000:05:00.1: AHCI 0001.0301 32 slots 1 ports 6 Gbps 0x1 impl SATA mode
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.775853] ahci 0000:05:00.1: flags: 64bit ncq sntf ilck pm led clo only pmp fbs pio slum part 
+--
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.776593] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.15
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.776595] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.776595] usb usb2: Product: xHCI Host Controller
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.776596] usb usb2: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.776597] usb usb2: SerialNumber: 0000:04:00.3
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.776642] nvme nvme0: pci function 0000:03:00.0
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.778036] acpi PNP0C14:02: duplicate WMI GUID 05901221-D566-11D1-B2F0-00A0C9062910 (first instance was on PNP0C14:00)
+--
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.778855] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.15
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.778856] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.778857] usb usb3: Product: xHCI Host Controller
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.778858] usb usb3: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.778859] usb usb3: SerialNumber: 0000:04:00.4
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.778932] hub 3-0:1.0: USB hub found
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.778937] hub 3-0:1.0: 4 ports detected
+--
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.779082] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.15
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.779083] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.779084] usb usb4: Product: xHCI Host Controller
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.779085] usb usb4: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.779085] usb usb4: SerialNumber: 0000:04:00.4
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.779153] hub 4-0:1.0: USB hub found
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.779157] hub 4-0:1.0: 2 ports detected
+--
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.801769] snd_rn_pci_acp3x 0000:04:00.5: enabling device (0000 -> 0002)
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.811563] ccp 0000:04:00.2: tee enabled
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.811568] ccp 0000:04:00.2: psp enabled
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.821878] mc: Linux media interface: v0.10
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.822054] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.822210] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.829560] Bluetooth: Core ver 2.22
+--
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.829665] Bluetooth: HCI socket layer initialized
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.829667] Bluetooth: L2CAP socket layer initialized
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.829672] Bluetooth: SCO socket layer initialized
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.866108] videodev: Linux video capture interface: v2.00
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.869682] RAPL PMU: API unit is 2^-32 Joules, 1 fixed counters, 163840 ms ovfl timer
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.869684] RAPL PMU: hw unit of domain package 2^-16 Joules
+Dec 27 21:19:37 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.880752] cryptd: max_cpu_qlen set to 1000
+--
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 systemd-modules-load[359]: Inserted module 'parport_pc'
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 systemd-modules-load[359]: Inserted module 'msr'
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 systemd[1]: modprobe@chromeos_pstore.service: Deactivated successfully.
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.000000] Linux version 5.15.0-56-generic (buildd@lcy02-amd64-004) (gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0, GNU ld (GNU Binutils for Ubuntu) 2.38) #62-Ubuntu SMP Tue Nov 22 19:54:14 UTC 2022 (Ubuntu 5.15.0-56.62-generic 5.15.64)
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 systemd[1]: Finished Load Kernel Module chromeos_pstore.
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.15.0-56-generic root=UUID=b55e6085-edfe-4bf9-9ec3-cc1f7d921856 ro quiet splash vt.handoff=7
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.000000] KERNEL supported cpus:
+--
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240230] ACPI: Added _OSI(3.0 _SCP Extensions)
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240230] ACPI: Added _OSI(Processor Aggregator Device)
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 udisksd[706]: udisks daemon version 2.9.4 starting
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240231] ACPI: Added _OSI(Linux-Dell-Video)
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240231] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240232] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.250614] ACPI: 11 ACPI AML tables successfully acquired and loaded
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.251621] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.252961] ACPI: EC: EC started
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.252962] ACPI: EC: interrupt blocked
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.266626] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+--
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.289089] usbcore: registered new interface driver usbfs
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.289089] usbcore: registered new interface driver hub
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.289089] usbcore: registered new device driver usb
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.289089] pps_core: LinuxPPS API ver. 1 registered
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.289089] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.289089] PTP clock support registered
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.292200] EDAC MC: Ver: 3.0.0
+--
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.337525] ACPI: \_SB_.PLTF.C00A: Found 3 idle states
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.337684] ACPI: \_SB_.PLTF.C00B: Found 3 idle states
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.337969] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.339381] Linux agpgart interface v0.103
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.351608] loop: module loaded
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.351879] tun: Universal TUN/TAP device driver, 1.6
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.351925] PPP generic driver version 2.4.2
+--
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.722928] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.15
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.722931] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.722933] usb usb1: Product: xHCI Host Controller
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.722935] usb usb1: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.722936] usb usb1: SerialNumber: 0000:04:00.3
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.722994] ahci 0000:05:00.0: version 3.0
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.723368] hub 1-0:1.0: USB hub found
+--
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.731413] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.15
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.731415] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.731417] usb usb2: Product: xHCI Host Controller
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.731418] usb usb2: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.731419] usb usb2: SerialNumber: 0000:04:00.3
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.731614] hub 2-0:1.0: USB hub found
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.731623] hub 2-0:1.0: 2 ports detected
+--
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.733288] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.15
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.733291] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.733293] usb usb3: Product: xHCI Host Controller
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.733294] usb usb3: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.733296] usb usb3: SerialNumber: 0000:04:00.4
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.733561] hub 3-0:1.0: USB hub found
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.733568] hub 3-0:1.0: 4 ports detected
+--
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.734788] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.15
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.734790] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.734792] usb usb4: Product: xHCI Host Controller
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.734793] usb usb4: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.734795] usb usb4: SerialNumber: 0000:04:00.4
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.734971] hub 4-0:1.0: USB hub found
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.734979] hub 4-0:1.0: 2 ports detected
+--
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.951119] ccp 0000:04:00.2: tee enabled
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.951124] ccp 0000:04:00.2: psp enabled
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.951138] ideapad_acpi VPC2004:00: DYTC interface is not available
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.998112] mc: Linux media interface: v0.10
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.999463] RAPL PMU: API unit is 2^-32 Joules, 1 fixed counters, 163840 ms ovfl timer
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.999468] RAPL PMU: hw unit of domain package 2^-16 Joules
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.006152] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.006402] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.008300] cryptd: max_cpu_qlen set to 1000
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.019964] videodev: Linux video capture interface: v2.00
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.030885] AVX2 version of gcm_enc/dec engaged.
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.030911] Bluetooth: Core ver 2.22
+Dec 27 22:41:03 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.030997] AES CTR mode by8 optimization enabled
+--
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 systemd[1]: Finished Apply Kernel Variables.
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 systemd[1]: Mounted Mount unit for snap-store, revision 582.
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 systemd[1]: Mounted Mount unit for snapd, revision 17883.
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.000000] Linux version 5.15.0-56-generic (buildd@lcy02-amd64-004) (gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0, GNU ld (GNU Binutils for Ubuntu) 2.38) #62-Ubuntu SMP Tue Nov 22 19:54:14 UTC 2022 (Ubuntu 5.15.0-56.62-generic 5.15.64)
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 systemd[1]: Mounted Mount unit for snapd-desktop-integration, revision 14.
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.15.0-56-generic root=UUID=b55e6085-edfe-4bf9-9ec3-cc1f7d921856 ro quiet splash vt.handoff=7
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.000000] KERNEL supported cpus:
+--
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240672] ACPI: Added _OSI(3.0 _SCP Extensions)
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240673] ACPI: Added _OSI(Processor Aggregator Device)
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 systemd[1]: modprobe@pstore_blk.service: Deactivated successfully.
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240674] ACPI: Added _OSI(Linux-Dell-Video)
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240674] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240675] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 systemd[1]: Finished Load Kernel Module pstore_blk.
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.251545] ACPI: 11 ACPI AML tables successfully acquired and loaded
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.252558] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 systemd[1]: modprobe@pstore_zone.service: Deactivated successfully.
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.253894] ACPI: EC: EC started
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.253895] ACPI: EC: interrupt blocked
+--
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.289510] usbcore: registered new interface driver usbfs
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.289510] usbcore: registered new interface driver hub
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.289510] usbcore: registered new device driver usb
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.291488] pps_core: LinuxPPS API ver. 1 registered
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.291489] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.291491] PTP clock support registered
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.292639] EDAC MC: Ver: 3.0.0
+--
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.340019] ACPI: \_SB_.PLTF.C00A: Found 3 idle states
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.340142] ACPI: \_SB_.PLTF.C00B: Found 3 idle states
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.340405] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.341464] Linux agpgart interface v0.103
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 avahi-daemon[698]: New relevant interface lo.IPv4 for mDNS.
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 avahi-daemon[698]: Network interface enumeration completed.
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.353207] loop: module loaded
+--
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.731016] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.15
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.731019] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.731021] usb usb1: Product: xHCI Host Controller
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.731023] usb usb1: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.731023] usb usb1: SerialNumber: 0000:04:00.3
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.731044] scsi host0: ahci
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.731232] ata1: SATA max UDMA/133 abar m2048@0xfd001000 port 0xfd001100 irq 33
+--
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.738095] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.15
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.738095] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.738095] usb usb2: Product: xHCI Host Controller
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.738095] usb usb2: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.738095] usb usb2: SerialNumber: 0000:04:00.3
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.738095] hub 2-0:1.0: USB hub found
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.738095] hub 2-0:1.0: 2 ports detected
+--
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.738658] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.15
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.738660] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.738661] usb usb3: Product: xHCI Host Controller
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.738662] usb usb3: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.738663] usb usb3: SerialNumber: 0000:04:00.4
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.738750] hub 3-0:1.0: USB hub found
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.738757] hub 3-0:1.0: 4 ports detected
+--
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.738967] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.15
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.738968] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.738969] usb usb4: Product: xHCI Host Controller
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.738970] usb usb4: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.738971] usb usb4: SerialNumber: 0000:04:00.4
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.739046] hub 4-0:1.0: USB hub found
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.739050] hub 4-0:1.0: 2 ports detected
+--
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.878226] loop16: detected capacity change from 0 to 608
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.884565] systemd[1]: Started Journal Service.
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    1.895072] systemd-journald[343]: Received client request to flush runtime journal.
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.084066] mc: Linux media interface: v0.10
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.084230] ccp 0000:04:00.2: enabling device (0000 -> 0002)
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.088978] snd_rn_pci_acp3x 0000:04:00.5: enabling device (0000 -> 0002)
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.089478] ccp 0000:04:00.2: ccp: unable to access the device: you might be running a broken BIOS.
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.099102] input: Ideapad extra buttons as /devices/pci0000:00/0000:00:14.3/PNP0C09:00/VPC2004:00/input/input8
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.099655] ccp 0000:04:00.2: tee enabled
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.099661] ccp 0000:04:00.2: psp enabled
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.100504] videodev: Linux video capture interface: v2.00
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.111636] RAPL PMU: API unit is 2^-32 Joules, 1 fixed counters, 163840 ms ovfl timer
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.111641] RAPL PMU: hw unit of domain package 2^-16 Joules
+Dec 28 13:15:38 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.113273] Bluetooth: Core ver 2.22
+--
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 rsyslogd: rsyslogd's groupid changed to 111
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 rsyslogd: rsyslogd's userid changed to 104
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="727" x-info="https://www.rsyslog.com"] start
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.000000] Linux version 5.15.0-56-generic (buildd@lcy02-amd64-004) (gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0, GNU ld (GNU Binutils for Ubuntu) 2.38) #62-Ubuntu SMP Tue Nov 22 19:54:14 UTC 2022 (Ubuntu 5.15.0-56.62-generic 5.15.64)
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.15.0-56-generic root=UUID=b55e6085-edfe-4bf9-9ec3-cc1f7d921856 ro quiet splash vt.handoff=7
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.000000] KERNEL supported cpus:
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.000000]   Intel GenuineIntel
+--
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240675] ACPI: Added _OSI(Processor Device)
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240675] ACPI: Added _OSI(3.0 _SCP Extensions)
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240676] ACPI: Added _OSI(Processor Aggregator Device)
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240676] ACPI: Added _OSI(Linux-Dell-Video)
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240677] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240677] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.251415] ACPI: 11 ACPI AML tables successfully acquired and loaded
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.252428] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.253770] ACPI: EC: EC started
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.253771] ACPI: EC: interrupt blocked
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.267583] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+--
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.289533] usbcore: registered new interface driver usbfs
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.289533] usbcore: registered new interface driver hub
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.289533] usbcore: registered new device driver usb
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.289533] pps_core: LinuxPPS API ver. 1 registered
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.289533] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.289533] PTP clock support registered
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.289533] EDAC MC: Ver: 3.0.0
+--
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.339838] ACPI: \_SB_.PLTF.C00A: Found 3 idle states
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.339994] ACPI: \_SB_.PLTF.C00B: Found 3 idle states
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.340288] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.341806] Linux agpgart interface v0.103
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.369118] loop: module loaded
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.369337] tun: Universal TUN/TAP device driver, 1.6
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.369373] PPP generic driver version 2.4.2
+--
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.764653] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.15
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.764653] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.764653] usb usb1: Product: xHCI Host Controller
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.764653] usb usb1: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.764653] usb usb1: SerialNumber: 0000:04:00.3
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.764653] nvme nvme0: pci function 0000:03:00.0
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.765113] ata1: SATA max UDMA/133 abar m2048@0xfd001000 port 0xfd001100 irq 33
+--
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.766784] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.15
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.766786] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.766788] usb usb2: Product: xHCI Host Controller
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.766789] usb usb2: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.766791] usb usb2: SerialNumber: 0000:04:00.3
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.767012] hub 2-0:1.0: USB hub found
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.767018] hub 2-0:1.0: 2 ports detected
+--
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.768151] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.15
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.768153] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.768154] usb usb3: Product: xHCI Host Controller
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.768155] usb usb3: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.768157] usb usb3: SerialNumber: 0000:04:00.4
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.768323] hub 3-0:1.0: USB hub found
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.768330] hub 3-0:1.0: 4 ports detected
+--
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.769249] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.15
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.769252] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.769254] usb usb4: Product: xHCI Host Controller
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.769255] usb usb4: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.769257] usb usb4: SerialNumber: 0000:04:00.4
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.769478] hub 4-0:1.0: USB hub found
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.769486] hub 4-0:1.0: 2 ports detected
+--
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.084652] ccp 0000:04:00.2: psp enabled
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.128399] RAPL PMU: API unit is 2^-32 Joules, 1 fixed counters, 163840 ms ovfl timer
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.128404] RAPL PMU: hw unit of domain package 2^-16 Joules
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.128708] mc: Linux media interface: v0.10
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.129863] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.130057] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.149006] videodev: Linux video capture interface: v2.00
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.149238] cryptd: max_cpu_qlen set to 1000
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.159278] Bluetooth: Core ver 2.22
+Dec 29 00:27:33 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.159304] NET: Registered PF_BLUETOOTH protocol family
+--
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 systemd[1]: Mounted Mount unit for snapd-desktop-integration, revision 14.
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 systemd[1]: Mounted Mount unit for snapd-desktop-integration, revision 49.
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 systemd[1]: Mounted Mount unit for firefox, revision 2211 via mount-control.
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.000000] Linux version 5.15.0-56-generic (buildd@lcy02-amd64-004) (gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0, GNU ld (GNU Binutils for Ubuntu) 2.38) #62-Ubuntu SMP Tue Nov 22 19:54:14 UTC 2022 (Ubuntu 5.15.0-56.62-generic 5.15.64)
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 systemd[1]: Starting Flush Journal to Persistent Storage...
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.15.0-56-generic root=UUID=b55e6085-edfe-4bf9-9ec3-cc1f7d921856 ro quiet splash vt.handoff=7
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
+--
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240377] ACPI: Added _OSI(Processor Device)
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240377] ACPI: Added _OSI(3.0 _SCP Extensions)
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240378] ACPI: Added _OSI(Processor Aggregator Device)
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240378] ACPI: Added _OSI(Linux-Dell-Video)
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240379] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.240379] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.251060] ACPI: 11 ACPI AML tables successfully acquired and loaded
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.252094] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.253454] ACPI: EC: EC started
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.253455] ACPI: EC: interrupt blocked
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.270500] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+--
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.293191] usbcore: registered new interface driver usbfs
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.293191] usbcore: registered new interface driver hub
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.293191] usbcore: registered new device driver usb
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.295195] pps_core: LinuxPPS API ver. 1 registered
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.295197] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.295198] PTP clock support registered
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.295208] EDAC MC: Ver: 3.0.0
+--
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.343388] ACPI: \_SB_.PLTF.C00A: Found 3 idle states
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.343537] ACPI: \_SB_.PLTF.C00B: Found 3 idle states
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.343836] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.345342] Linux agpgart interface v0.103
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.357675] loop: module loaded
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.357905] tun: Universal TUN/TAP device driver, 1.6
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.357943] PPP generic driver version 2.4.2
+--
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.763020] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.15
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.763022] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.763024] usb usb1: Product: xHCI Host Controller
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.763026] usb usb1: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.763028] usb usb1: SerialNumber: 0000:04:00.3
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.763092] ahci 0000:05:00.1: enabling device (0000 -> 0002)
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.763350] acpi PNP0C14:02: duplicate WMI GUID 05901221-D566-11D1-B2F0-00A0C9062910 (first instance was on PNP0C14:00)
+--
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.763798] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.15
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.763800] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.763801] usb usb2: Product: xHCI Host Controller
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.763802] usb usb2: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.763803] usb usb2: SerialNumber: 0000:04:00.3
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.763910] hub 2-0:1.0: USB hub found
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.763916] hub 2-0:1.0: 2 ports detected
+--
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.764600] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.15
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.764602] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.764603] usb usb3: Product: xHCI Host Controller
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.764603] usb usb3: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.764604] usb usb3: SerialNumber: 0000:04:00.4
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.764662] hub 3-0:1.0: USB hub found
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.764668] hub 3-0:1.0: 4 ports detected
+--
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.764902] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.15
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.764904] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.764906] usb usb4: Product: xHCI Host Controller
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.764907] usb usb4: Manufacturer: Linux 5.15.0-56-generic xhci-hcd
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.764908] usb usb4: SerialNumber: 0000:04:00.4
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.765107] hub 4-0:1.0: USB hub found
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    0.765115] hub 4-0:1.0: 2 ports detected
+--
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.000590] ideapad_acpi VPC2004:00: DYTC interface is not available
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.041265] ccp 0000:04:00.2: enabling device (0000 -> 0002)
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.042231] ccp 0000:04:00.2: ccp: unable to access the device: you might be running a broken BIOS.
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.044057] mc: Linux media interface: v0.10
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.045675] RAPL PMU: API unit is 2^-32 Joules, 1 fixed counters, 163840 ms ovfl timer
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.045678] RAPL PMU: hw unit of domain package 2^-16 Joules
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.056242] ccp 0000:04:00.2: tee enabled
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.056248] ccp 0000:04:00.2: psp enabled
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.058204] videodev: Linux video capture interface: v2.00
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.058516] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.058757] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+Mar 20 01:59:25 danilspudi-IdeaPad-3-15ABA7 kernel: [    2.059374] cryptd: max_cpu_qlen set to 1000
